@@ -1,0 +1,23 @@
+.container-club {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.projets-final {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: blue;
+}
+
+.projets-web {
+  grid-area: 2 / 1 / 3 / 3;
+  background-color: yellowgreen;
+}
+
+.projets-graphisme {
+  grid-area: 5 / 1 / 3 / 3;
+  background-color: tomato;
+}

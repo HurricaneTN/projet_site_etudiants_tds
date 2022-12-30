@@ -73,10 +73,10 @@ body {
 .navbar-color {
   height: 210px;
   width: 100%;
-  background-image: url(/img/wave.svg);
+  background-image: url("../img/wave.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -40px;
+  background-position-y: -50px;
   z-index: 50;
   opacity: 0.8;
 }
@@ -327,7 +327,7 @@ img.consize {
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background: url(/img/home-bg3.png) no-repeat;
+  background: url("../img/home-bg3.png") no-repeat;
   background-size: 60%;
   background-position: left 130% bottom 15%;
 }
@@ -385,7 +385,7 @@ section {
   width: 100% !important;
 }
 #myPageContent {
-  background-image: url(/img/cool-background.png);
+  background-image: url("../img/cool-background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
